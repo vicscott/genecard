@@ -1,0 +1,287 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome To GeneCard</title>
+    <style>
+        #rules::-webkit-scrollbar {/*滚动条整体样式*/
+            width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+            height: 2px;
+        }
+        #rules::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+            border-radius: 5px;
+            -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+            background: rgba(0,0,0,0.2);
+        }
+        #rules::-webkit-scrollbar-track {/*滚动条里面轨道*/
+            -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+            border-radius: 0;
+            background: rgba(0,0,0,0.1);
+        }
+        #gameintroduction::-webkit-scrollbar {/*滚动条整体样式*/
+            width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+            height: 2px;
+        }
+        #gameintroduction::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+            border-radius: 5px;
+            -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+            background: rgba(0,0,0,0.2);
+        }
+        #gameintroduction::-webkit-scrollbar-track {/*滚动条里面轨道*/
+            -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+            border-radius: 0;
+            background: rgba(0,0,0,0.1);
+        }
+        #close2{
+            float: right;
+            font-size: 15px;
+            margin-right: 20px;
+        }
+        #guize{
+            margin-left: 200px;
+            font-size: 35px;
+        }
+        #close1{
+            float: right;
+            font-size: 15px;
+            margin-right: 20px;
+        }
+        #close3{
+            float: right;
+            font-size: 15px;
+            margin-right: 20px;
+        }
+        #team{
+            margin-left: 0px;
+            font-size: 35px;
+        }
+        #jieshao{
+            margin-left: 200px;
+            font-size: 35px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="main">
+    <div id="index" style="width: 1900px; height: 880px; padding-top: 80px; background-image:url('pic/china.jpg')">
+        <h2 id="flyin1" style="display: block;width:40%;float:left;position:relative;left:-500;font-style:italic; writing-mode: vertical-lr;">
+                <p style="font-family: 华文行楷;font-size: 35px;color: #dd1144; line-height: 120px">
+                    这是一款由<br><span style="font-family: 华文琥珀">电子科技大学生命与技术学院iGEM实验队</span><br>
+                    设计并制作的桌面纸牌游戏。<br>我们实现了将合成生物学与纸牌游戏的有机结合，
+                </p>
+            </h2>
+        <h2 id="flyin2" style="display: block;width:40%;float:left;position:relative;right:-1800;font-style:italic; writing-mode: vertical-lr;">
+                <p style="font-family: 华文行楷;font-size: 35px;color: #dd1144; line-height: 120px">
+                    在游戏的玩法和背景设计中加入了基因工程的元素。寓教于乐，
+                    在桌游的对弈中了解简单的合成生物学知识。科学性、趣味性、创新性，<br>
+                    Gene Card不止于桌游
+                </p>
+            </h2>
+        <div id="text" style="display:block; width: 200px; height: 100px; margin-right: auto; margin-left: auto;position: absolute;margin: auto;top: 0;left: 0;right: 0;bottom: 0;">
+            <p style="font-size: 35px;color: #dd1144;font-family: 幼圆"><a href="#">游戏介绍</a></p>
+            <p style="font-size: 35px;color: #dd1144;font-family: 幼圆"><a href="#">规则介绍</a></p>
+            <p style="font-size: 35px;color: #dd1144;font-family: 幼圆"><a href="HTML.php">开始游戏</a></p>
+            <p style="font-size: 35px;color: #dd1144;font-family: 幼圆"><a href="#">开发团队</a></p>
+        </div>
+        <div id="gameintroduction" style="display:none; background-image: url('pic/small.jpg'); overflow: auto; margin-top:30px; margin-left: auto; margin-right: auto; width: 500px; height: 700px; background-color: white;margin-top: auto; ">
+            <div style="position: fixed; background-image: url('pic/small.jpg'); width:500px; height: auto;margin-top: 0; padding-top: 0;">
+            <h3>
+                <span id="jieshao">游戏介绍</span>
+                <span id="close1">关闭</span>
+            </h3>
+            </div>
+            <div style="padding-top:60px;">
+            <p><h4>基础牌</h4></p>
+            <p><span style="font-family: 华文琥珀">内切酶：</span>切割不同来源的DNA分子，获得DNA体外重组所需要的DNA片段</p>
+            <p><span style="font-family: 华文琥珀">DNA连接酶：</span>连接目的基因片段</p>
+            <p><span style="font-family: 华文琥珀">骨架载体：</span>可携带外源DNA片段或基因进入受体细胞内稳定维持或表达的核酸分子</p>
+            <p><span style="font-family: 华文琥珀">目的基因：</span>编码目的蛋白质（酶）的结构基因</p>
+            <p><span style="font-family: 华文琥珀">细菌：</span>可摄取外源DNA并稳定维持的细胞</p>
+                <p><span style="font-family: 华文琥珀">PCR：</span>一种克隆载体的扩增手段</p>
+            <p><h4>功能牌</h4></p>
+            <p><span style="font-family: 华文琥珀">噬菌体：</span>作为吃牌机制，可用来吃前一张被打出的牌</p>
+            <p><span style="font-family: 华文琥珀">抗生素：</span>可以攻击细菌</p>
+            <p><span style="font-family: 华文琥珀">抗性基因：</span>防御抗生素</p>
+            <p><span style="font-family: 华文琥珀">高温：</span> 可是一种酶失活</p>
+            <p><span style="font-family: 华文琥珀">核酸水解酶：</span>  攻击目的基因或载体</p>
+            <p><span style="font-family: 华文琥珀">紫外线：</span>攻击目的菌或载体</p>
+            <p><span style="font-family: 华文琥珀">转移：</span>可在被攻击时，使攻击转移给其他人</p>
+            </div>
+        </div>
+        <div id="rules" style="display:none;background-image: url('pic/small.jpg'); overflow: auto; margin-left: auto; margin-right: auto; width: 500px; height: 700px;margin-top: auto; ">
+            <div style="position: fixed; background-image: url('pic/small.jpg'); width:500px; height: auto;margin-top: 0;">
+            <h3>
+                <span id="guize">规则介绍</span>
+                <span id="close2">关闭</span>
+            </h3>
+            </div>
+            <div style="padding-top:60px;">
+            <p><h4>游戏规则</h4></p>
+            <p>    1.每位玩家初始摸6张牌，将基础牌明置（同一张牌只明牌一张），剩余牌作为手牌</p>
+            <p>    2.从你开始按顺时针顺序摸牌，每局只摸一张牌，并打出一张牌</p>
+            <p>    3.若摸到之前没有的基础牌，须直接明牌并继续摸牌，直到不能明牌，打出一张回合结束</p>
+            <p>    4.若打出功能牌，可任意指定攻击玩家，被攻击方使用功能牌防御；若无防御牌，手中若还有被攻击的牌可直接明牌，不占用回合</p>
+            <p>    5.攻击最多只可被转移1次 </p>
+            <p>    6.最终完成一条完整的工作链（即集齐6种基础牌，无顺序要求）的玩家获胜</p>
+            <p><h4>操作说明</h4></p>
+            <p>    1.攻击方式：点击手中的功能牌，再点击你选择的攻击对象。附攻击说明：抗生素->细菌，高温->内切酶、DNA连接酶，核酸水解酶、紫外线->目的基因、骨架载体</p>
+            <p>    2.防御方式：本游戏采用强制自动防守，受到攻击时，若手牌中有防御牌则必打出，附防御说明：抗性基因->抗生素，高温->核酸水解酶，转移->抗生素、高温、核酸水解酶、紫外线</p>
+            <p>    3.功能牌，双击即弃牌；基础牌，单击出牌</p>
+            <p>    4.胜利条件：自己的回合内集齐6种基础牌即胜利</p>
+            </div>
+        </div>
+        <div id="kaifa" style="display:none;background-image: url('pic/small.jpg'); overflow: auto; margin-left: auto; margin-right: auto; width: 500px; height: 700px; background-color: white;margin-top: auto; ">
+            <div style="position: fixed; background-image: url('pic/small.jpg'); width:500px; height: auto;margin-top: 0;">
+                <h3 style="margin-left: 200px;font-size: 35px;background-image: url('pic/small.jpg')">
+                    <span id="team">开发团队</span>
+                    <span id="close3">关闭</span>
+
+                </h3>
+            </div>
+            <div style="padding-top:110px;">
+               <p style="font-family: 华文隶书;font-size: 25px;">
+                   本游戏由Gene Card团队<br>杨建哲、陈盎、李镭、尹嘉怡、索熙林、贺莉聪<br>提供线下支持<br>
+               </p>
+                <p style="font-family: 华文隶书;font-size: 25px;">
+                    由周详、潘淇琛、刘燮仪提供线上支持
+                </p>
+            </div>
+        </div>
+        <div id="help" style="display: block;">
+            <div style="float: left"><img src="pic/J/neiqiemei.jpg" width="60px"; height="90px";></div>
+            <div style="float: left"><img src="pic/J/DNAlianjiemei.jpg" width="60px"; height="90px";></div>
+            <div style="float: left"><img src="pic/J/gujiazaiti.jpg" width="60px"; height="90px";></div>
+            <div style="float: left"><img src="pic/J/mudijiyin.jpg" width="60px"; height="90px";></div>
+            <div style="float: left"><img src="pic/J/xijun.jpg" width="60px"; height="90px";></div>
+            <div style="float: left"><img src="pic/J/PCR.jpg" width="60px"; height="90px";></div>
+
+            <div style="float: left"><img src="pic/G/shijunti.jpg"></div>
+            <div style="float: left"><img src="pic/G/kangshengsu.jpg"></div>
+            <div style="float: left"><img src="pic/G/kangxingjiyin.jpg"></div>
+            <div style="float: left"><img src="pic/G/gaowen.jpg"></div>
+            <div style="float: left"><img src="pic/G/hesuanshuijiemei.jpg"></div>
+            <div style="float: left"><img src="pic/G/ziwaixian.jpg"></div>
+            <div><img src="pic/G/zhuanyi.jpg"></div>
+        </div>
+        <div id="voice" style="float: right; display: block;position: relative; z-index: 9999">
+            <a href="javascript:playPause();"><img src="pic/voice.jpg" width="24" height="25" id="music_btn2" border="0"></a>
+            <img src="pic/up.png" width="24" height="25" onclick="document.getElementById('music2').volume+=0.15">
+            <img src="pic/down.png" width="24" height="25" onclick="document.getElementById('music2').volume-=0.15">
+            <a href="javascript:help();"><img src="pic/help.jpg" width="24" height="25" ></a>
+        </div>
+    </div>
+    <audio id="music2" src="DJ Okawari - Luv Letter.mp3" autoplay="autoplay"  loop="loop"></audio>
+</div>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	var crossheader=document.getElementById("flyin1").style;
+	function animatein() {
+		if (parseInt(crossheader.left) < 200)
+			crossheader.left = parseInt(crossheader.left) + 20;
+		else {
+			crossheader.left = 200;
+			crossheader.fontStyle= 'normal';
+			clearInterval(start)
+		}
+	}
+	start=setInterval("animatein()",90)
+
+	var crossheader2=document.getElementById("flyin2").style;
+	function animatein2() {
+		if (parseInt(crossheader2.right) < -250)
+			crossheader2.right = parseInt(crossheader2.right) + 20;
+		else {
+			crossheader2.right = -250;
+			crossheader2.fontStyle= 'normal';
+			clearInterval(start2)
+		}
+	}
+	start2=setInterval("animatein2()",90)
+
+
+var mask1 = document.getElementById('gameintroduction');
+var mask2 = document.getElementById('rules');
+var mask3 = document.getElementById('kaifa');
+var voice = document.getElementById('voice');
+var txt = document.getElementById('text');
+var lt = document.getElementById('flyin1');
+var rt = document.getElementById('flyin2');
+var close1 = document.getElementById('close1');
+var close2 = document.getElementById('close2');
+var hi1 = document.getElementById("text").getElementsByTagName("p")[0];
+var hi2 = document.getElementById('text').getElementsByTagName('p')[1];
+var hi3 = document.getElementById('text').getElementsByTagName('p')[3];
+hi1.onclick = function () {
+	mask1.style.display = 'block';
+	txt.style.display = 'none';
+	voice.style.display = 'none';
+    mask1.style.opacity ='0.8';
+    lt.style.display = 'none';
+    rt.style.display = 'none';
+}
+hi2.onclick = function () {
+    mask2.style.display = 'block';
+	txt.style.display = 'none';
+	voice.style.display= 'none'
+    mask2.style.opacity = '0.8';
+	lt.style.display ='none';
+	rt.style.display = 'none';
+}
+hi3.onclick = function () {
+		mask3.style.display = 'block';
+		txt.style.display = 'none';
+		voice.style.display= 'none'
+		mask3.style.opacity = '0.8';
+		lt.style.display ='none';
+		rt.style.display = 'none';
+	}
+close1.onclick = function () {
+    mask1.style.display = 'none';
+    txt.style.display = 'block';
+    voice.style.display = 'block';
+	lt.style.display ='block';
+	rt.style.display = 'block';
+}
+close2.onclick =function () {
+	mask2.style.display = 'none';
+	txt.style.display = 'block';
+	voice.style.display = 'block';
+	lt.style.display ='block';
+	rt.style.display = 'block';
+}
+close3.onclick =function () {
+		mask3.style.display = 'none';
+		txt.style.display = 'block';
+		voice.style.display = 'block';
+		lt.style.display ='block';
+		rt.style.display = 'block';
+	}
+function playPause() {
+	var music = document.getElementById('music2');
+	var music_btn = document.getElementById('music_btn2');
+	if (music.paused){
+		music.play();
+
+	}
+	else{
+		music.pause();
+	}
+}
+function help() {
+
+}
+
+</script>
+
+
+
+
+
+</body>
+</html>
