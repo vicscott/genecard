@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="jquery.js"></script>
-    <script type="text/javascript" src="jquery.min.js"></script>
     <style type="text/css" rel="stylesheet">
         .modal-dialog{
             height: auto;
@@ -118,51 +116,52 @@
     </style>
 </head>
 <body>
-<img src="pic/china.jpg" style="width: 100%;height: 100%;position: fixed;z-index: -111">
+<img src="pic/enbkg.jpg" style="width: 100%;height: 100%;position: fixed;z-index: -111">
 <div class="main">
     <div id="index" style="width: 1900px; height: 880px; padding-top: 80px; ">
 
-        <div class="juzhong" id="jz" style="display:block;background-color: #e0e0e0; opacity: 0.1"></div>
+        <div class="juzhong" id="jz" style="display:block;background-color: #989898; opacity: 0.3"></div>
         <div id="text" class="juzhong container" style="display:block;">
             <div class="row" id="row" style="text-align: center">
                 <div id="1" class="anniu">
-                    <a class="btn btn-group btn-lg" style="font-size: 30px;color: #dd1144">游戏介绍</a>
+                    <a class="btn btn-success btn-lg" style="font-size: 30px;">Look in</a>
                 </div>
                 <div id="2" class="anniu">
-                    <a class="btn btn-group btn-lg" style="font-size: 30px;color: #dd1144">规则</a>
+                    <a class="btn btn-success btn-lg" style="font-size: 30px;">Rules</a>
                 </div>
                 <div class="anniu">
-                    <a class="btn btn-group btn-lg" href="genecard.php" style="font-size: 30px;color: #dd1144">开始游戏</a>
+                    <a class="btn btn-success btn-lg" href="genecard2.php" style="font-size: 30px;"> Start</a>
                 </div>
                 <div id="3" class="anniu">
-                    <a class="btn btn-group btn-lg" style="font-size: 30px;color: #dd1144">开发团队</a>
+                    <a class="btn btn-success btn-lg" style="font-size: 30px;">Developers</a>
                 </div>
             </div>
         </div>
         <div id="gameintroduction" style="display:none;overflow: auto; margin-top:30px; margin-left: auto; margin-right: auto; width: 500px; height: 700px; margin-top: auto; ">
             <div >
                 <h3>
-                    <span id="jieshao">游戏介绍</span>
-                    <span id="close1" style="font-family: 华文行楷; font-size: 30px">关闭</span>
+                    <span id="jieshao">Game introduction</span>
+                    <span id="close1" style="font-family: 华文行楷; font-size: 30px">close</span>
                 </h3>
             </div>
             <div style=" font-size: 25px">
-                <p><h4 style="font-family: 华文琥珀;font-size: 35px">基础牌</h4></p>
-                <p><span style="font-family: 华文琥珀">内切酶：</span>切割不同来源的DNA分子，获得DNA体外重组所需要的DNA片段</p>
-                <p><span style="font-family: 华文琥珀">DNA连接酶：</span>连接目的基因片段</p>
-                <p><span style="font-family: 华文琥珀">骨架载体：</span>可携带外源DNA片段或基因进入受体细胞内稳定维持或表达的核酸分子</p>
-                <p><span style="font-family: 华文琥珀">目的基因：</span>编码目的蛋白质（酶）的结构基因</p>
-                <p><span style="font-family: 华文琥珀">细菌：</span>可摄取外源DNA并稳定维持的细胞</p>
-                <p><span style="font-family: 华文琥珀">PCR：</span>一种克隆载体的扩增手段</p>
-                <p><h4 style="font-family: 华文琥珀;font-size: 35px">功能牌</h4></p>
-                <p><span style="font-family: 华文琥珀">噬菌体：</span>作为吃牌机制，可用来吃前一张被打出的牌</p>
-                <p><span style="font-family: 华文琥珀">抗生素：</span>可以攻击细菌</p>
-                <p><span style="font-family: 华文琥珀">抗性基因：</span>防御抗生素</p>
-                <p><span style="font-family: 华文琥珀">高温：</span> 可是一种酶失活</p>
-                <p><span style="font-family: 华文琥珀">核酸水解酶：</span>  攻击目的基因或载体</p>
-                <p><span style="font-family: 华文琥珀">紫外线：</span>攻击目的菌或载体</p>
-                <p><span style="font-family: 华文琥珀">转移：</span>可在被攻击时，使攻击转移给其他人</p>
-                <strong><p>你可以在帮助(?)里看到详细信息</p></strong>
+                <p>There are 6 kinds of basic cards and 7 kinds of function cards , summing to 64 cards.</p>
+                <p><h4 style="font-size: 35px">Basic cards</h4></p>
+                <p><span ><strong>DNA ligase：</strong></span>ligase target gene fragment </p>
+                <p><span ><strong>restriction enzyme：</strong></span>Cut the DNA molecule fro m different source to gain DNA fragment what DNA in vitro </p>
+                <p><span ><strong>vector：</strong></span>Nucleic acid molecules which maintain Or express them stably that can carry foreign DNA fragments or genes into the receptor cell</p>
+                <p><span ><strong>target gene：</strong></span> A structural gene which encoding target protein (enzyme)</p>
+                <p><span ><strong>engineering bacteria:</strong></span>  Foreign DNA ca n be ingested and stably maintained cells</p>
+                <p><span ><strong>PCR：</strong></span>Amplification method Of cloning vector </p>
+                <p><h4 style="font-size: 35px"><strong>Function cards</strong></h4></p>
+                <p><span ><strong>phage：</strong></span>to be chow mechanism ， it can be used to chow one card before being played </p>
+                <p><span ><strong>antibiotic：</strong></span>it can attack bacteria</p>
+                <p><span ><strong>resistant gene：</strong></span>it can defend antibiotic</p>
+                <p><span ><strong>high temperature：</strong></span>it can make the enzyme inactivation </p>
+                <p><span ><strong>nuclease：</strong></span> it can attack target gene or vector</p>
+                <p><span ><strong>ultraviolet：</strong></span>it can attack target gene or vector </p>
+                <p><span ><strong>transfer：</strong></span>it can transfer attack to other people</p>
+                <strong><p>You can see more details in help(?)</p></strong>
             </div>
         </div>
         <div id="rules" style="display:none; overflow: auto; margin-left: auto; margin-right: auto; width: 500px; height: 700px;margin-top: auto; ">
@@ -173,36 +172,37 @@
                 </h3>
             </div>
             <div style=" font-size: 25px">
-                <p><h4 style="font-family: 华文琥珀;font-size: 35px">游戏规则</h4></p>
-                <p>    1.每位玩家初始摸6张牌，将基础牌明置（同一张牌只明牌一张），剩余牌作为手牌</p>
-                <p>    2.从你开始按顺时针顺序摸牌（初始不摸牌），每局只摸一张牌，并打出一张牌</p>
-                <p>    3.若摸到之前没有的基础牌，须直接明牌并继续摸牌，直到不能明牌，打出一张回合结束</p>
-                <p>    4.若打出功能牌，可任意指定攻击玩家，被攻击方使用功能牌防御；若无防御牌，手中若还有被攻击的牌可直接明牌，不占用回合</p>
-                <p>    5.攻击最多只可被转移1次 </p>
-                <p>    6.最终完成一条完整的工作链（即集齐6种基础牌，无顺序要求）的玩家获胜</p>
-                <p><h4 style="font-family: 华文琥珀;font-size: 35px">操作说明</h4></p>
-                <p>    1.攻击方式：单击手中的功能牌，再单击选择的攻击对象。附攻击说明：抗生素-->细菌，高温-->内切酶、DNA连接酶，核酸水解酶、紫外线-->目的基因、骨架载体</p>
-                <p>    2.防御方式：本游戏采用强制自动防守，受到攻击时，若手牌中有防御牌则必打出，附防御说明：抗性基因-->抗生素，高温-->核酸水解酶，转移-->抗生素、高温、核酸水解酶、紫外线</p>
-                <p>    3.功能牌，双击即弃牌；基础牌，单击出牌</p>
-                <p>    4.在对应图片上悬停3秒就能看到高清大图</p>
-                <p>    5.如果选错攻击对象，将会跳过该出牌回合作为惩罚</p>
-                <p>    6.胜利条件：自己的回合内集齐6种基础牌即胜利</p>
+                <p><h4 style=";font-size: 35px"><strong>Rules</strong></h4></p>
+                <p>    1.Each player initially gets 6 CARDS, and expresses the basic cards(the same card only sets one card), with the remaining CARDS in the hand</p>
+                <p>    2.Start playing CARDS from you in a clockwise order (no CARDS at first), with only one card drawing and one card playing for each round</p>
+                <p>    3.If you draw a basic card that you did not have before, you should directly express the card and continue to draw until you cannot</p>
+                <p>    4.If playing the function card, you can arbitrarily designate the attacking player, and the attacked player will use the function card for defense; If there is no defense card, but there is an attacked card in hand can be directly expressed, do not occupy the turn</p>
+                <p>    5.Attacks can only be transferred 1 time at most</p>
+                <p>    6.The player who finally completes a complete work chain (that is, collect all 6 basic CARDS, no order required) wins</p>
+                <p><h4 style=";font-size: 35px"><strong>OI</strong></h4></p>
+                <p>    1.Attack mode: click the function card in your hand, and then click the selected attack object. Description: antibiotics -> bacteria, high temperature -> restriction enzyme、DNA ligase, nuclease、ultraviolet-> target gene、vector</p>
+                <p>    2.Defense mode: this game adopts mandatory automatic defense, when attacked, if there is a defense card in the hand, it must play, with defense instructions: resistant gene -> antibiotic, high temperature -> nuclease, transfer -> antibiotic、high temperature、 nuclease、 ultraviolet</p>
+                <p>    3.Function card:double-click to discard; Basic card: click to discard.</p>
+                <p>    4.If you choose wrong object, you will skip the draw as a penalty.</p>
+                <p>    5.Hover your mouse over the corresponding image for more than 3 seconds to see the larger image.</p>
+                <p>    6.Victory condition: if you collect 6 basic cards in your turn, you win</p>
             </div>
         </div>
         <div id="kaifa" style="display:none;overflow: auto; margin-left: auto; margin-right: auto; width: 600px; height: 700px;margin-top: auto; ">
             <div style="position: fixed;  width:500px; height: auto;margin-top: 0;">
                 <h3 style="margin-left: 200px;font-size: 35px;">
-                    <span id="team">开发团队</span>
-                    <span id="close3" style="font-family: 华文行楷; font-size: 30px">关闭</span>
+                    <span id="team">Developers</span>
+                    <span id="close3" style="font-family: 华文行楷; font-size: 30px">close</span>
 
                 </h3>
             </div>
             <div style="padding-top:110px;">
-                <p style="font-size: 30px;">
-                    本游戏由Gene Card团队<br>由周详、潘淇琛、刘燮仪提供线上支持<br>
+                <p style="font-family: 华文行楷;font-size: 35px;">
+                    This game is by Gene Card team<br>Online support is provided by Zhou xiang, Pan qi chen and Liu xieyi<br>
+                    <br>
                 </p>
-                <p style="font-size: 30px;">
-                    杨舰哲、陈盎、李镭、尹嘉怡、索熙林、贺莉聪提供线下支持
+                <p style="font-family: 华文行楷;font-size: 35px;">
+                    Yang jianzhe, Chen ang, Li lei, Yin jiayi, suo xilin and He licong provide offline support
                 </p>
             </div>
         </div>
@@ -210,112 +210,112 @@
             <span id="close4" style="font-size: 18px; float: right;font-family: 华文隶书">close</span>
             <div id="jc" style="display:block;width: 100%;height: 100px;">
                 <div><span style="font-size: 25px; font-family: 华文行楷">Basic cards</span></div>
-                <div style="float: left;"><a data-toggle="modal" data-target="#myModal1"><img src="pic/J/neiqiemei.jpg"  width="120px" height="180px"></a></div>
-                <div style="float: left"><a data-toggle="modal" data-target="#myModal2"><img src="pic/J/DNAlianjiemei.jpg" width="120px" height="180px"></a></div>
-                <div style="float: left"><a data-toggle="modal" data-target="#myModal3"><img src="pic/J/gujiazaiti.jpg"  width="120px" height="180px"></a></div>
-                <div style="float: left"><a data-toggle="modal" data-target="#myModal4"><img src="pic/J/mudijiyin.jpg"  width="120px" height="180px"></a></div>
-                <div style="float: left"><a data-toggle="modal" data-target="#myModal5"><img src="pic/J/xijun.jpg"  width="120px" height="180px"></a></div>
-                <div style="float: left"><a data-toggle="modal" data-target="#myModal6"><img src="pic/J/PCR.jpg"  width="120px" height="180px"></a></div>
+                <div style="float: left;"><a data-toggle="modal" data-target="#myModal1"><img src="pic/eJ/neiqiemei.jpg"  width="120px" height="180px"></a></div>
+                <div style="float: left"><a data-toggle="modal" data-target="#myModal2"><img src="pic/eJ/DNAlianjiemei.jpg" width="120px" height="180px"></a></div>
+                <div style="float: left"><a data-toggle="modal" data-target="#myModal3"><img src="pic/eJ/gujiazaiti.jpg"  width="120px" height="180px"></a></div>
+                <div style="float: left"><a data-toggle="modal" data-target="#myModal4"><img src="pic/eJ/mudijiyin.jpg"  width="120px" height="180px"></a></div>
+                <div style="float: left"><a data-toggle="modal" data-target="#myModal5"><img src="pic/eJ/xijun.jpg"  width="120px" height="180px"></a></div>
+                <div style="float: left"><a data-toggle="modal" data-target="#myModal6"><img src="pic/eJ/PCR.jpg"  width="120px" height="180px"></a></div>
             </div>
 
             <div id='gn' style="display:block;width: 100%;height: 100px;float: left">
                 <div><span style="font-size: 25px; font-family: 华文行楷">Function cards</span></div>
-                <div style="float: left"><a data-toggle="modal" data-target="#myModal7"><img src="pic/G/shijunti.jpg" width="120px" height="180px"></a></div>
-                <div style="float: left"><a data-toggle="modal" data-target="#myModal8"><img src="pic/G/kangshengsu.jpg"  width="120px" height="180px"></a></div>
-                <div style="float: left"><a data-toggle="modal" data-target="#myModal9"><img src="pic/G/kangxingjiyin.jpg"  width="120px" height="180px"></a></div>
-                <div style="float: left"><a data-toggle="modal" data-target="#myModal10"><img src="pic/G/gaowen.jpg"  width="120px" height="180px"></a></div>
-                <div style="float: left"><a data-toggle="modal" data-target="#myModal11"><img src="pic/G/hesuanshuijiemei.jpg"  width="120px" height="180px"></a></div>
-                <div style="float: left"><a data-toggle="modal" data-target="#myModal12"><img src="pic/G/ziwaixian.jpg"  width="120px" height="180px"></a></div>
-                <div style="float: left"><a data-toggle="modal" data-target="#myModal13"><img src="pic/G/zhuanyi.jpg"  width="120px" height="180px"></a></div>
+                <div style="float: left"><a data-toggle="modal" data-target="#myModal7"><img src="pic/eG/shijunti.jpg" width="120px" height="180px"></a></div>
+                <div style="float: left"><a data-toggle="modal" data-target="#myModal8"><img src="pic/eG/kangshengsu.jpg"  width="120px" height="180px"></a></div>
+                <div style="float: left"><a data-toggle="modal" data-target="#myModal9"><img src="pic/eG/kangxingjiyin.jpg"  width="120px" height="180px"></a></div>
+                <div style="float: left"><a data-toggle="modal" data-target="#myModal10"><img src="pic/eG/gaowen.jpg"  width="120px" height="180px"></a></div>
+                <div style="float: left"><a data-toggle="modal" data-target="#myModal11"><img src="pic/eG/hesuanshuijiemei.jpg"  width="120px" height="180px"></a></div>
+                <div style="float: left"><a data-toggle="modal" data-target="#myModal12"><img src="pic/eG/ziwaixian.jpg"  width="120px" height="180px"></a></div>
+                <div style="float: left"><a data-toggle="modal" data-target="#myModal13"><img src="pic/eG/zhuanyi.jpg"  width="120px" height="180px"></a></div>
             </div>
             <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <img src="pic/J/mudijiyin.jpg"  width="100%">
+                        <img src="pic/eJ/mudijiyin.jpg"  width="100%">
                     </div><!-- /.modal-content -->
                 </div>
             </div>
             <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <img src="pic/J/neiqiemei.jpg"  width="100%">
+                        <img src="pic/eJ/neiqiemei.jpg"  width="100%">
                     </div><!-- /.modal-content -->
                 </div>
             </div>
             <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <img src="pic/J/DNAlianjiemei.jpg"  width="100%">
+                        <img src="pic/eJ/DNAlianjiemei.jpg"  width="100%">
                     </div><!-- /.modal-content -->
                 </div>
             </div>
             <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <img src="pic/J/gujiazaiti.jpg"  width="100%">
+                        <img src="pic/eJ/gujiazaiti.jpg"  width="100%">
                     </div><!-- /.modal-content -->
                 </div>
             </div>
             <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <img src="pic/J/xijun.jpg"  width="100%">
+                        <img src="pic/eJ/xijun.jpg"  width="100%">
                     </div><!-- /.modal-content -->
                 </div>
             </div>
             <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <img src="pic/J/PCR.jpg"  width="100%">
+                        <img src="pic/eJ/PCR.jpg"  width="100%">
                     </div><!-- /.modal-content -->
                 </div>
             </div>
             <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <img src="pic/G/shijunti.jpg"  width="100%">
+                        <img src="pic/eG/shijunti.jpg"  width="100%">
                     </div><!-- /.modal-content -->
                 </div>
             </div>
             <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <img src="pic/G/kangshengsu.jpg"  width="100%">
+                        <img src="pic/eG/kangshengsu.jpg"  width="100%">
                     </div><!-- /.modal-content -->
                 </div>
             </div>
             <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <img src="pic/G/kangxingjiyin.jpg"  width="100%">
+                        <img src="pic/eG/kangxingjiyin.jpg"  width="100%">
                     </div><!-- /.modal-content -->
                 </div>
             </div>
             <div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <img src="pic/G/gaowen.jpg"  width="100%">
+                        <img src="pic/eG/gaowen.jpg"  width="100%">
                     </div><!-- /.modal-content -->
                 </div>
             </div>
             <div class="modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <img src="pic/G/hesuanshuijiemei.jpg"  width="100%">
+                        <img src="pic/eG/hesuanshuijiemei.jpg"  width="100%">
                     </div><!-- /.modal-content -->
                 </div>
             </div>
             <div class="modal fade" id="myModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <img src="pic/G/ziwaixian.jpg"  width="100%">
+                        <img src="pic/eG/ziwaixian.jpg"  width="100%">
                     </div><!-- /.modal-content -->
                 </div>
             </div>
             <div class="modal fade" id="myModal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <img src="pic/G/zhuanyi.jpg"  width="100%">
+                        <img src="pic/eG/zhuanyi.jpg"  width="100%">
                     </div><!-- /.modal-content -->
                 </div>
             </div>
@@ -324,7 +324,7 @@
 
     </div>
     <div id="voice" class="youshang" style=" z-index: 9999">
-        <a href='index2.html'>English</a>
+        <a href='index.html'>中文</a>
         <a href="javascript:playPause();"><img src="pic/voice.png" width="24" height="25" id="music_btn2" border="0"></a>
         <img src="pic/up.png" width="24" height="25" onclick="document.getElementById('music2').volume+=0.15">
         <img src="pic/down.png" width="24" height="25" onclick="document.getElementById('music2').volume-=0.15">
@@ -334,7 +334,7 @@
     <div style="display:block;color:black;text-align: center;"><p>Copyright © 2018 UESTC-China. All rights reserved.</p></div>
 </div>
 
-
+<script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript">
 
 	var mask1 = document.getElementById('gameintroduction');
